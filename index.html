@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Metodos de Arreglos</title>
+  </head>
+  <body>
+    <section id="caja">
+      <article id="titulo"><h1>Todo list</h1></article>
+      <hr />
+      <article id="inputs">
+        <div>
+          <p>Nueva tarea</p>
+          <input id="input" type="text" />
+          <button id="agregar">Agregar</button>
+        </div>
+      </article>
+      <article id="resultados">
+        <div id="conteos">
+          <p>Total: <span id="conteoTotal">0</span></p>
+          <p>Realizadas: <span id="conteoRealizados">0</span></p>
+        </div>
+        <div id="listas">
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Tarea</th>
+                <th>Completada</th>
+                <th>Eliminar</th>
+              </tr>
+            </thead>
+            <tbody id="bodyTabla"></tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

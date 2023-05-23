@@ -1,0 +1,60 @@
+body {
+    margin: 20px;
+    padding: 0;
+    background-color: #4e4d4d46;
+}
+#inputs {
+    display: flex;
+    
+}
+
+#input {
+    width: 80vh;
+    height: 4.5vh;
+    border: 0;
+    border-radius: 5px;
+}
+
+#agregar {
+    height: 5vh;
+    background-color: rgba(18, 167, 18, 0.747);
+    
+    border-radius: 5px;
+    color: white;
+}
+#resultados {
+    display: flex;
+    justify-content: space-between;
+    width: 50em;
+}
+
+
+#listas {
+    display: flex;
+}
+
+span {
+    font-size: large;
+    font-weight: 900;
+    color: black;
+}
+
+table {
+    width: 40em;
+    margin: 20px;
+}
+
+
+button {
+    background-color: red;
+    border-radius: 5px;
+}
+
+#descripcionTabla{
+    width: 400px;
+}
+
+td {
+    padding-left: 15px;
+}
+
